@@ -1,0 +1,20 @@
+PODS:
+  - ASIHTTPRequest (1.8.1):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.1)
+    - ASIHTTPRequest/CloudFiles (= 1.8.1)
+    - ASIHTTPRequest/S3 (= 1.8.1)
+    - Reachability
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/CloudFiles (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.1):
+    - Reachability
+  - EGOTableViewPullRefresh (0.1.0)
+  - JTRevealSidebarDemo (2.2)
+  - Reachability (3.0.0)
+
+DEPENDENCIES:
+  - ASIHTTPRequest
+  - EGOTableViewPullRefresh
+  - JTRevealSidebarDemo

@@ -1,0 +1,7 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/ASIHTTPRequest" "${PODS_ROOT}/BuildHeaders/EGOTableViewPullRefresh" "${PODS_ROOT}/BuildHeaders/JTRevealSidebarDemo" "${PODS_ROOT}/BuildHeaders/Reachability"
+OTHER_LDFLAGS = -ObjC -lxml2.2 -lz.1 -framework CFNetwork -framework CoreGraphics -framework MobileCoreServices -framework QuartzCore -framework SystemConfiguration
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/ASIHTTPRequest" "${PODS_ROOT}/Headers/EGOTableViewPullRefresh" "${PODS_ROOT}/Headers/JTRevealSidebarDemo" "${PODS_ROOT}/Headers/Reachability"
+HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2 ${PODS_HEADERS_SEARCH_PATHS}
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
